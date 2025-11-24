@@ -1,0 +1,5 @@
+f=open('sample.txt','w+')
+data=f.write("good morning")
+data=f.read()
+print(data)
+f.close()
